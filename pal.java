@@ -1,0 +1,20 @@
+class pal{
+    public static void main(String[] args) {
+        int result = 0, num = 12321;
+        int temp = num;
+        if (num<0||(num%10 == 0 && num != 0)) {
+            System.out.println("Number is not a palindrome");
+            return;
+        }
+        while(temp > result){
+            int rem = temp%10;
+            result = result*10+rem;
+            temp = temp/10;
+        }
+        if (result == temp || temp == result/10) {
+            System.out.println("Number is palindrome");
+        }else{
+            System.out.println("Number is not a palindrome");
+        }
+    }
+}
