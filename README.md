@@ -69,8 +69,6 @@ Let me know if:
 - You want a template for unit testing or CLI arguments
 - You’d like a `LICENSE` or `.gitignore` file for completeness
 
-Want me to generate that MIT License file too?
-
 ## ▶️ How to Run
 
 Make sure Java is installed (`java -version`), then:
